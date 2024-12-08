@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+
+    <header>
+        <div class="Nome">
+            <h1>Jogo da velha!!</h1>
+        </div>
+        
+        <div class="assinatura">
+            <h4>Made by Tavin</h4>
+        </div>
+        
+    </header>
+    <!-- VAPO -->
+
+    <button class="reinicia" date-doinicio>Reinicar Partida</button>
+
+    <h2 class="maior">Vez de:</h2>
+    <p class="turno" data-turno></p>
+    
+    <div class="tabuleiro x" data-tabuleiro>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+    </div>
+    
+   <aside>
+
+        <div class="contador" data-contador>
+            <h3>Pontos X:</h3>
+            <p class="placar" data-pontoX>0</p>
+            <h3>Pontos O:</h3>
+            <p class="placar" data-pontoO>0</p>
+            <h3>Empates:</h3>
+            <p class="placar" data-pontoE>0</p>
+
+            <button class="botao" date-zeraplacar>Reiniciar</button>
+        </div>
+   </aside>
+
+    <div class="msgVitoria" winning>
+        <p class="msgVitoriotxt" date-msg-txt></p>
+        <button class="msgVitoriobnt" date-reiniciar>Reiniciar</button>
+    </div>
+        <script src="scrip.js"></script>
+</body>
+</html>
